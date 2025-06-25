@@ -1,0 +1,4 @@
+# Using Node.js 20+ built-in support
+node --env-file=.env your_script.js &  # Start script in background
+pm2 startup  # Register the running process with PM2
+sudo systemctl status mongod
