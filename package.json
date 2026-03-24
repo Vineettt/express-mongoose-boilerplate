@@ -1,8 +1,8 @@
 {
   "name": "express-mongoose-boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.ts",
+  "description": "A comprehensive Node.js boilerplate with Express.js, TypeScript, Mongoose, authentication, and role-based access control",
+  "main": "dist/app.js",
   "scripts": {
     "build": "tsc && tsc-alias",
     "build:watch": "tsc -w",
@@ -10,7 +10,7 @@
     "serve": "node --env-file=.env -r tsconfig-paths/register dist/app.js",
     "serve:watch": "nodemon --env-file=.env -r tsconfig-paths/register dist/app.js"
   },
-  "keywords": [],
+  "keywords": ["express", "mongoose", "typescript", "boilerplate", "authentication", "rbac", "jwt", "nodejs"],
   "author": "",
   "license": "ISC",
   "dependencies": {
